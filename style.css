@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Audiowide&family=Indie+Flower&family=Saira+Stencil+One&family=Shadows+Into+Light+Two&family=Sriracha&family=The+Girl+Next+Door&display=swap');
+
+:root {
+    --color-one: #a0f171;
+    --color-two: #344d26;
+}
+
+body {
+    font-family: "The Girl Next Door", cursive;
+    text-align: center;
+    background-color: var(--color-two);
+    color: var(--color-one);
+}
+
+.base2 {
+    background-color: var(--color-one);
+    font-size: medium;
+    color: var(--color-two);
+    border-radius: 2%;
+    border-style: dashed;
+    padding: 8px;
+}
+.base16 {
+    background-color: var(--color-one);
+    font-size: medium;
+    color: var(--color-two);
+    border-radius: 2%;
+    border-style: dashed;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+}
+.container div {
+    border: 2px;
+    border-radius: 2%;
+    border-style: dashed;
+    flex: 1;
+}
+
+#results p {
+    text-decoration: double;
+}
+
+input {
+    background-color: var(--color-one);
+    font-family: "The Girl Next Door", cursive;
+}
+select {
+    background-color: var(--color-one);
+    font-family: "The Girl Next Door", cursive;
+}
+
+button {
+    background-color: var(--color-one);
+    font-family: "The Girl Next Door", cursive;
+    padding: 2px;
+    text-align: center;
+    border-radius: 2%;
+    border-style: dashed;
+    border-color: var(--color-two);
+}

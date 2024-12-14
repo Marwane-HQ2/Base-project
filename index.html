@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'><text x='0' y='25' font-size='25'>🔢</text></svg>" type="image/svg+xml">
+        <link rel="stylesheet" href="style.css">
+        <title>Base</title>
+    </head>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1><u>Base</u> project</h1>
+            <p>Try to convert any number from base 10 (decimal) to base 2 (binary) or base 16 (hexa) ! <br>Only positives ( > 0) numbers !</p>
+        </div>
+        <div>
+            <h1>Try it !</h1>
+            <form onsubmit="convertBase(event)">
+                <label for="selectbase">Select the base you want to convert your number to:</label>
+                <select name="Base" id="selectbase">
+                    <option value="2">Base 2</option>
+                    <option value="16">Base 16</option>
+                </select>
+                <br>
+                <label for="inputnumber">What do you want to convert ?</label>
+                <input required type="number" id="inputnumber" placeholder="Gimme numbers !">
+                <br>
+                <button type="submit">Convert !</button>
+            </form>
+        </div>
+    </div>
+    <div id="results">
+        <h1>The results are in . . .</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
